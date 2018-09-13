@@ -16,5 +16,6 @@ public class HeroService {
 
     List findAll() {
         return (List) heroRepository.findAll(Sort.by("name"));
+
     }
 }
